@@ -6,9 +6,19 @@
 }
 
 header {
-  background-color: #ff52bf;
+  /*background-color: hsl(322, 100%, 66%);*/
   height: 100px;
   padding: 32px 16px;
+}
+
+.header-gradient {
+  /*width: 50%;*/
+  background-image: linear-gradient(to right, #ff52bf, #9a52ff);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: right;
+  border-top-left-radius: 50000%;
+  border-bottom-left-radius: 25%;
 }
 
 nav {
@@ -21,10 +31,18 @@ nav {
   height: 20px;
 }
 
+.image-hero {
+  max-width: 100%;
+}
+
 .button-small {
   width: 90px;
   padding: 6px;
   border: none;
+}
+
+main {
+  margin: 100px 8%;
 }
 
 .attribution {
@@ -43,6 +61,12 @@ nav {
 
 .white {
   background-color: #ffffff;
+}
+
+@media (min-width: 1440px) {
+  header {
+    padding: 32px 5%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
