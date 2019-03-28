@@ -15,7 +15,7 @@ header {
   /*width: 50%;*/
   background-image: linear-gradient(to right, #ff52bf, #9a52ff);
   background-repeat: no-repeat;
-  background-size: 50% 500px;
+  background-size: 50% 570px;
   background-position: right top;
   border-top-left-radius: 50000%;
   border-bottom-left-radius: 25%;
@@ -35,14 +35,55 @@ nav {
   max-width: 100%;
 }
 
+main {
+  margin: 100px 8%;
+}
+
+.section {
+  margin: 50px 0 150px 0;
+}
+
+.image-users {
+  width: 80%;
+}
+
 .button-small {
   width: 90px;
   padding: 6px;
   border: none;
 }
 
-main {
-  margin: 100px 8%;
+.button-medium {
+  width: 180px;
+  padding: 14px;
+  border: none;
+  color: #ffffff;
+  font-size: 0.8em;
+}
+
+.center {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+.grey-text {
+  color: #808d99;
 }
 
 .attribution {
@@ -57,6 +98,10 @@ main {
 .grey,
 .gray {
   background-color: #e5e5e5;
+}
+
+.pink {
+  background-color: #ff52bf;
 }
 
 .white {

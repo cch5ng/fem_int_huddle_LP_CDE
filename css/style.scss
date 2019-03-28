@@ -1,6 +1,11 @@
 /* variables */
 $grey-light: #e5e5e5;
 $white: #ffffff;
+$pink: hsl(322, 100%, 66%);
+$purple: hsl(265, 100%, 66%);
+$light-grey-blue: hsl(214, 64%, 98%);
+$mid-gray-blue: hsl(208, 11%, 55%);
+$dark-cyan: hsl(192, 100%, 9%);
 
 * {
 	margin: 0;
@@ -22,7 +27,7 @@ header {
       hsl(322, 100%, 66%), hsl(265, 100%, 66%)
     );
   background-repeat: no-repeat;
-  background-size: 50% 500px;
+  background-size: 50% 570px;
   background-position: right top;
   border-top-left-radius: 50000%;
   border-bottom-left-radius: 25%;
@@ -42,19 +47,60 @@ nav {
 	max-width: 100%;
 }
 
+main {
+	margin: 100px 8%;
+
+}
+
+.section {
+	margin: 50px 0 150px 0;
+}
+
+.image-users {
+	width: 80%;
+}
+
 .button-small {
 	width: 90px;
 	padding: 6px;
 	border: none;
 }
 
-main {
-	margin: 100px 8%;
+.button-medium {
+  width: 180px;
+  padding: 14px;
+  border: none;
+  color: $white;
+  font-size: 0.8em;
+}
 
+.center {
+	text-align: center;
 }
 
 footer {
 
+}
+
+h1 {
+	font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+	font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+	font-family: 'Poppins', sans-serif;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+}
+
+.grey-text {
+	color: $mid-gray-blue;
 }
 
 .attribution { font-size: 11px; text-align: center; }
@@ -63,6 +109,10 @@ footer {
 .grey,
 .gray {
 	background-color: $grey-light;
+}
+
+.pink {
+	background-color: $pink;
 }
 
 .white {
