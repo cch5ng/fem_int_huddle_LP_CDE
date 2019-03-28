@@ -15,7 +15,7 @@ header {
   /*width: 50%;*/
   background-image: linear-gradient(to right, #ff52bf, #9a52ff);
   background-repeat: no-repeat;
-  background-size: 50% 570px;
+  background-size: 50% 600px;
   background-position: right top;
   border-top-left-radius: 50000%;
   border-bottom-left-radius: 25%;
@@ -43,8 +43,13 @@ main {
   margin: 50px 0 150px 0;
 }
 
-.image-users {
+.image-container {
   width: 80%;
+  margin: 0 auto;
+}
+
+.image-users {
+  max-width: 100%;
 }
 
 .card {
@@ -62,7 +67,9 @@ main {
 .button-medium {
   width: 180px;
   padding: 14px;
+  margin-top: 35px;
   border: none;
+  border-radius: 3px;
   color: #ffffff;
   font-size: 0.8em;
 }
@@ -71,15 +78,32 @@ main {
   text-align: center;
 }
 
+.heading {
+  width: 70%;
+  margin: 18px auto;
+}
+
 h1,
 h2,
 h3 {
   font-family: "Poppins", sans-serif;
 }
 
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 40px auto 20px;
+}
+
 p {
   font-family: "Open Sans", sans-serif;
-  font-size: 18px;
+  font-size: 14px;
+  width: 85%;
+  margin: 0 auto;
 }
 
 .grey-text {
