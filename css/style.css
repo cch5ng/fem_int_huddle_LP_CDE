@@ -84,6 +84,20 @@ main {
   text-align: center;
 }
 
+footer {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.footer-logo {
+  text-align: center;
+  margin: 75px 0;
+}
+
+.footer-link {
+  font-size: 18px;
+}
+
 .heading {
   width: 70%;
   margin: 18px auto;
@@ -105,6 +119,10 @@ h2 {
   margin: 40px auto 20px;
 }
 
+.h2-benefit {
+  text-align: center;
+}
+
 h3 {
   font-size: 16px;
   font-weight: 600;
@@ -116,6 +134,10 @@ p {
   font-size: 14px;
   width: 85%;
   margin: 0 auto;
+}
+
+.p-benefit {
+  text-align: center;
 }
 
 .footnote {
@@ -151,6 +173,60 @@ p {
 @media (min-width: 1440px) {
   header {
     padding: 32px 5%;
+  }
+
+  .logo {
+    height: 30px;
+  }
+
+  p {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .p-benefit {
+    text-align: left;
+  }
+
+  .hero-wrapper {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .section {
+    width: 60%;
+    margin: 50px auto 150px;
+  }
+
+  .section-middle {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .image-wrapper,
+.benefits-wrapper {
+    width: 50%;
+  }
+
+  .benefits-wrapper {
+    padding-left: 40px;
+  }
+
+  .h2-benefit {
+    text-align: left;
+  }
+
+  .card {
+    width: 60%;
+    height: 250px;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+  .footnote {
+    font-size: 14px;
   }
 }
 
