@@ -47,6 +47,12 @@ main {
   width: 80%;
 }
 
+.card {
+  width: 80%;
+  border: 1px solid #808d99;
+  margin: 0 auto;
+}
+
 .button-small {
   width: 90px;
   padding: 6px;
@@ -65,14 +71,8 @@ main {
   text-align: center;
 }
 
-h1 {
-  font-family: "Poppins", sans-serif;
-}
-
-h2 {
-  font-family: "Poppins", sans-serif;
-}
-
+h1,
+h2,
 h3 {
   font-family: "Poppins", sans-serif;
 }

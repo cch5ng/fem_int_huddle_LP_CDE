@@ -6,6 +6,7 @@ $purple: hsl(265, 100%, 66%);
 $light-grey-blue: hsl(214, 64%, 98%);
 $mid-gray-blue: hsl(208, 11%, 55%);
 $dark-cyan: hsl(192, 100%, 9%);
+$font-heading: 'Poppins', sans-serif;
 
 * {
 	margin: 0;
@@ -60,6 +61,12 @@ main {
 	width: 80%;
 }
 
+.card {
+	width: 80%;
+	border: 1px solid $mid-gray-blue;
+	margin: 0 auto;
+}
+
 .button-small {
 	width: 90px;
 	padding: 6px;
@@ -82,16 +89,19 @@ footer {
 
 }
 
+h1,
+h2,
+h3 {
+	font-family: $font-heading;	
+}
+
 h1 {
-	font-family: 'Poppins', sans-serif;
 }
 
 h2 {
-	font-family: 'Poppins', sans-serif;
 }
 
 h3 {
-	font-family: 'Poppins', sans-serif;
 }
 
 p {
