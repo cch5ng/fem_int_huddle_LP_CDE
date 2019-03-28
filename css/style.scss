@@ -1,0 +1,55 @@
+/* variables */
+$grey-light: #e5e5e5;
+$white: #ffffff;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	background-color: hsl(322, 100%, 66%);
+	height: 100px;
+	padding: 32px 16px;
+}
+
+nav {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.logo {
+	height: 20px;
+}
+
+.button-small {
+	width: 90px;
+	padding: 6px;
+	border: none;
+}
+
+main {
+
+}
+
+footer {
+
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.grey,
+.gray {
+	background-color: $grey-light;
+}
+
+.white {
+	background-color: $white;
+}
+
+@media (min-width: 1440px) {
+
+}
