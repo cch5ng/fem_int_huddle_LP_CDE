@@ -15,8 +15,8 @@ header {
   /*width: 50%;*/
   background-image: linear-gradient(to right, #ff52bf, #9a52ff);
   background-repeat: no-repeat;
-  background-size: 50%;
-  background-position: right;
+  background-size: 50% 500px;
+  background-position: right top;
   border-top-left-radius: 50000%;
   border-bottom-left-radius: 25%;
 }
