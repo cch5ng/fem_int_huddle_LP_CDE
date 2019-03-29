@@ -1,5 +1,11 @@
 # Frontend Mentor - Huddle landing page with coded decorative elements
 
+* Note from Front End Developer, this project was done using given design mockups (static images and image assets)
+
+* CSS was hand-coded based on visual designs
+
+------
+
 ![Design preview for the Huddle landing page with coded decorative elements challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
