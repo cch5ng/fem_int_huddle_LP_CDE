@@ -189,7 +189,7 @@ p {
 	color: $mid-gray-blue;
 }
 
-.attribution { 
+.attribution {
 	font-size: 11px; 
 	text-align: center; 
 	margin-top: 8px;
@@ -198,6 +198,11 @@ p {
 .attribution a { 
 	color: $gold; 
 	/*hsl(228, 45%, 44%); */
+}
+
+.h2-footer,
+.h2-footer-text {
+	text-align: center;
 }
 
 .grey,
@@ -296,6 +301,7 @@ p {
 
 	h2.h2-footer {
 		margin-top: 0;
+		text-align: left;
 	}
 
 	.footer-columns {
@@ -342,24 +348,14 @@ p {
 
 	.footer-link {
 		color: $light-grey-blue;
-		font-size: 12px;
+		font-size: 14px;
 	}
 
-
-/*	.footer-link-container1 {
-		order: 4;
+	p.h2-footer-text {
+		font-size: 11px;
+		color: $light-grey-blue;
+		text-align: left;
+		margin-left: 0;
 	}
-
-	.footer-link-container2 {
-		order: 1;
-	}
-
-	.footer-link-container3 {
-		order: 2;
-	}
-
-	.footer-link-container4 {
-		order: 3;
-	}*/
 
 }
