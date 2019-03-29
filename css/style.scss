@@ -8,6 +8,7 @@ $light-grey-blue: hsl(214, 64%, 98%);
 $mid-gray-blue: hsl(208, 11%, 55%);
 $dark-cyan: hsl(192, 100%, 9%);
 $pink-box-shadow: rgb(240, 0, 152, 0.2);
+$gold: #fed65e;
 $font-heading: 'Poppins', sans-serif;
 
 * {
@@ -184,8 +185,16 @@ p {
 	color: $mid-gray-blue;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+	font-size: 11px; 
+	text-align: center; 
+	margin-top: 8px;
+}
+
+.attribution a { 
+	color: $gold; 
+	/*hsl(228, 45%, 44%); */
+}
 
 .grey,
 .gray {
@@ -198,6 +207,16 @@ p {
 
 .white {
 	background-color: $white;
+}
+
+.social-icons {
+	width: 70%;
+	margin: 70px auto 30px auto;
+}
+
+.fab {
+	color: $white;
+	margin: 0 8px;
 }
 
 @media (min-width: 900px) { /* 1440px*/

@@ -172,10 +172,12 @@ p {
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-top: 8px;
 }
 
 .attribution a {
-  color: #3e52a3;
+  color: #fed65e;
+  /*hsl(228, 45%, 44%); */
 }
 
 .grey,
@@ -189,6 +191,16 @@ p {
 
 .white {
   background-color: #ffffff;
+}
+
+.social-icons {
+  width: 70%;
+  margin: 70px auto 30px auto;
+}
+
+.fab {
+  color: #ffffff;
+  margin: 0 8px;
 }
 
 @media (min-width: 900px) {
