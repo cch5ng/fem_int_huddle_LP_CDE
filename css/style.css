@@ -6,7 +6,6 @@
 }
 
 header {
-  /*background-color: hsl(322, 100%, 66%);*/
   height: 100px;
   padding: 32px 16px;
 }
@@ -54,8 +53,6 @@ main {
 }
 
 .card {
-  /*width: 95%;*/
-  /*border: 1px solid $mid-gray-blue;*/
   margin: 75px auto;
   padding: 40px;
   box-shadow: 0 3px 5px 5px rgba(114, 114, 114, 0.2);
@@ -183,7 +180,6 @@ p {
 
 .attribution a {
   color: #fed65e;
-  /*hsl(228, 45%, 44%); */
 }
 
 .h2-footer,
@@ -283,10 +279,6 @@ p {
     font-size: 14px;
   }
 
-  /*	.footer-logo {
-  		font-size: 35px;
-  	}
-  */
   .h1-footer {
     font-size: 32px;
     text-align: left;
