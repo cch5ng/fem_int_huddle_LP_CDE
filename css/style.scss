@@ -91,6 +91,16 @@ main {
   font-size: 0.8em;
 }
 
+.button-large {
+	width: 100%;
+	height: 45px;
+	border-radius: 3px;
+	border: none;
+	margin-top: 16px;
+	color: $white;
+  font-size: 0.9em;
+}
+
 .medium-box-shadow {
 	box-shadow: 0 0 2px 2px $pink-box-shadow;	
 }
@@ -102,15 +112,26 @@ main {
 footer {
 	background-color: $black;
 	color: $white;
+	padding: 75px 24px 20px;
 }
 
 .footer-logo {
 	text-align: center;
-	margin: 75px 0;
+	padding-bottom: 60px;
+	font-size: 20px;
 }
 
 .footer-link {
+	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
+	margin-bottom: 22px;
+}
+
+input {
+	width: 100%;
+	height: 45px;
+	border: none;
+	margin-top: 16px;
 }
 
 .heading {
@@ -179,7 +200,7 @@ p {
 	background-color: $white;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 900px) { /* 1440px*/
 
 	header {
 		padding: 32px 5%;
