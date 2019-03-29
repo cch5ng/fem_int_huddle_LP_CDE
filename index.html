@@ -9,10 +9,11 @@
   <title>Frontend Mentor | Huddle landing page with coded decorative elements</title>
 
   <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700|Open+Sans:400,700" rel="stylesheet">
 
 </head>
-<body>
-  <header class="header-gradient">
+<body class="header-gradient">
+  <header>
     <nav>
       <div class="header-item"><img alt="logo" class="logo" src="./images/logo.svg"></div>
       <div class="header-item"><button class="button-small white">Try It Free</button></div>
@@ -21,59 +22,75 @@
 
   <main>
     <div class="spacer-medium"></div>
-    <div><img class="image-hero" alt="mockups" src="./images/illustration-mockups.svg"></div>
+    <div class="hero-wrapper"><img class="image-hero" alt="mockups" src="./images/illustration-mockups.svg"></div>
 
-    Build The Community Your Fans Will Love
+    <div class="section">
+      <h1 class="heading center">Build The Community Your Fans Will Love</h1>
+      <!-- <div> -->
+        <p class="grey-text center">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+      <!-- </div> -->
+      <div class="center"><button class="button-medium pink medium-box-shadow">Get Started For Free</button></div>
+    </div>
 
-    Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-    Create connections with your users as you engage in genuine discussion. 
+    <div class="section-middle">
+      <div class="image-wrapper"><img class="image-users" alt="mockups" src="./images/illustration-your-users.svg"></div>
+      <div class="benefits-wrapper">
+        <div>
+          <h2 class="h2-benefit">Flowing Conversations</h2>
+          <p class="grey-text p-benefit">You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+        </div>
+        <div>
+          <h2 class="h2-benefit">Grow Together</h2>
+          <p class="grey-text p-benefit">Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
+        </div>
+        <div>
+          <h2 class="h2-benefit">Your Users</h2>
+          <p class="grey-text p-benefit">It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
+        </div>
+      </div>
+    </div>
 
-    Get Started For Free
-
-    Flowing Conversations
-
-    You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
-    just-in-time loading for a more natural flow.
-
-    Grow Together
-
-    Generate meaningful discussions with your audience and build a strong, loyal community. Think of 
-    the insightful conversations you miss out on with a feedback form. 
-
-    Your Users
-
-    It takes no time at all to integrate Huddle with your app's authentication solution. This means, once 
-    signed in to your app, your users can start chatting immediately.
-
-    Try It Free
-
-    Fully featured 30-day free trial - no credit card required
-
-    Get Started For Free
+    <div class="card">
+      <h3 class="center">Try It Free</h3>
+      <p class="grey-text footnote center">Fully featured 30-day free trial - no credit card required</p>
+      <div class="center"><button class="button-medium pink medium-box-shadow">Get Started For Free</button></div> 
+    </div>
 
   </main>
 
   <footer>
-    &copy; Copyright 2019 Huddle. All rights reserved.
+    <div class="footer-logo">
+      <h1>Huddle</h1>
+    </div>
+    <div>
+      <div>
+        social icons
+        &copy; Copyright 2019 Huddle. All rights reserved.
+      </div>
+      <div class="footer-link-container">
+        <div class="footer-link">About Us</div>
+        <div class="footer-link">What We Do</div>
+        <div class="footer-link">FAQ</div>    
+      </div>
+      <div>
+        <div class="footer-link">Career</div>
+        <div class="footer-link">Blog</div>
+        <div class="footer-link">Contact Us</div>
+      </div>
+      <div>
+        <h2 class="center">SUBSCRIBE</h2>
 
-    About Us
-    What We Do
-    FAQ
+        <p class="center">To receive tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
+        send you spam or pass on your email address</p>
 
-    Career
-    Blog
-    Contact Us
+        <input type="text" >
 
-    Subscribe
-
-    To receive tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
-    send you spam or pass on your email address
-
-    Subscribe
-
+        <button class="button-large pink">Subscribe</button>
+      </div>
+    </div>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">Carol Chung</a>.
     </p>
   </footer>
 </body>
